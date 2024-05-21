@@ -1,0 +1,70 @@
+case 11: solve11(); break
+case 12: solve12(); break
+case 13: solve13(); break
+case 14: solve14(); break
+case 15: solve15(); break
+case 16: solve16(); break
+case 17: solve17(); break
+case 18: solve18(); break
+case 19: solve19(); break
+case 20: solve20(); break
+
+function solve11() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x-1)
+document.getElementById("result").value = y
+}
+
+function solve12() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x-2)
+document.getElementById("result").value = y
+}
+
+function solve13() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x+1)
+document.getElementById("result").value = y
+}
+
+function solve14() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x+2)
+document.getElementById("result").value = y
+}
+
+function solve15() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x+232)
+document.getElementById("result").value = y
+}
+
+function solve16() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x-0.00000000001)
+document.getElementById("result").value = y
+}
+
+function solve17() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x+892)
+document.getElementById("result").value = y
+}
+
+function solve18() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x-10)
+document.getElementById("result").value = y
+}
+
+function solve19() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x-10)
+document.getElementById("result").value = y
+}
+
+function solve20() {
+let x = document.getElementById("result").value
+let y =math.evaluate(x-10)
+document.getElementById("result").value = y
+}
